@@ -1,0 +1,23 @@
+
+
+1.mysql
+
+login:
+mysql -uroot -p
+create database test3 charset=utf8;
+
+
+
+2. test model
+workon xxxx_dj1.8
+python  manage.py makemigrations
+python  manage.py migrate
+python  manage.py createsuperuser
+
+
+username:python
+passwd:1
+
+http://127.0.0.1:8000/admin/
+
+3.
