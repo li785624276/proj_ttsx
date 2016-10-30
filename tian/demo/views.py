@@ -16,6 +16,14 @@ def cart(reqeust):
     return render(request, 'demo/cart.html')
 
 
+def detail(request):
+    return render(request, 'demo/detail.html')
+
+
+def list(request):
+    return render(request, 'demo/list.html')
+
+
 def login(request):
     return render(request, 'demo/login.html')
 
@@ -42,3 +50,19 @@ def register(request):
 
 def user_center_info(request):
     return render(request, 'demo/user_center_info.html')
+
+
+def user_center_site(request):
+    return render(request, 'demo/user_center_site.html')
+
+
+def user_center_order(request):
+    return render(request, 'demo/user_center_order.html')
+
+
+def cart(request):
+    return render(request, 'demo/cart.html')
+
+
+def place_order(request):
+    return render(request, 'demo/place_order.html')
