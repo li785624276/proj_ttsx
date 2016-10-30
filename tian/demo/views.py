@@ -6,8 +6,5 @@ from django.core.paginator import Paginator
 
 
 def index(request):
-    dic = {
-        'key1': '<b>123</b>',
-        'key2': '<h1>456</h1>'
-    }
-    return render(request, 'booktest/index.html', dic)
+    print('hello')
+    return render(request, 'demo/index.html')
