@@ -25,5 +25,6 @@ http://127.0.0.1:8000/admin/
 day02: static template  view
 
 view:
-	index
+	index...16:34
+	login...
 	

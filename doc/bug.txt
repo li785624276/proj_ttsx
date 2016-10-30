@@ -1,0 +1,16 @@
+路径问题
+1.TemplateDoesNotExist at /
+
+login的html无法解析
+2.Page not found (404)
+Request Method:	GET
+Request URL:	http://192.168.13.128:8001/login.html
+Using the URLconf defined in tian.urls, Django tried these URL patterns, in this order:
+^admin/
+^tinymce/
+^ ^$ [name='index']
+^ ^login/$ [name='login']
+^ ^cart/$ [name='cart']
+^ ^loginHandle/$ [name='loginHandle']
+^ ^logout/$ [name='logout']
+The current URL, login.html, didn't match any of these.
