@@ -38,3 +38,7 @@ def logout(request):
 
 def register(request):
     return render(request, 'demo/register.html')
+
+
+def user_center_info(request):
+    return render(request, 'demo/user_center_info.html')

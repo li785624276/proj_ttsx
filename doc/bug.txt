@@ -14,3 +14,4 @@ Using the URLconf defined in tian.urls, Django tried these URL patterns, in this
 ^ ^loginHandle/$ [name='loginHandle']
 ^ ^logout/$ [name='logout']
 The current URL, login.html, didn't match any of these.
+3.login界面点击登录没有任何跳转
