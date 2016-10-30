@@ -1,0 +1,33 @@
+1.bugset/		用来存放bug集合.
+	格式:
+		001_who_staticfile.txt
+		002_who_staticfile.txt
+		003_who_staticfile.txt
+
+		编号		:00x
+		who     :发现、解决 bug的人.
+		type	:txt/py/doc/常用的文件类型,尽量通用，避免打不开.(建议txt/py)
+
+
+------------------------------------
+2.patch        用来存放git 的补丁.
+
+	git commit 
+	git diff master > xxx.patch 
+	mv xxx.patch 到 doc/patch/目录下
+
+
+	注意命名格式.
+	001_static_login.patch
+
+	编号		:00x
+	static  :模块名称[static|template|view|urls|model....]
+	type	:txt/py/doc/常用的文件类型,尽量通用，避免打不开.(建议txt/py)
+	
+
+------------------------------------
+3.sql        数据库操作脚本.
+
+	命名同上.
+
+
