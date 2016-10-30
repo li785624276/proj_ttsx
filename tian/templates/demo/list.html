@@ -24,9 +24,9 @@
 					<span>|</span>
 					<a href="{% url 'demo:user_center_site' %}">用户中心</a>
 					<span>|</span>
-					<a href="cart.html">我的购物车</a>
+					<a href="{% url 'demo:cart' %}">我的购物车</a>
 					<span>|</span>
-					<a href="user_center_order.html">我的订单</a>
+					<a href="{% url 'demo:user_center_order' %}">我的订单</a>
 				</div>
 			</div>
 		</div>		
@@ -102,8 +102,8 @@
 
 			<ul class="goods_type_list clearfix">
 				<li>
-					<a href="detail.html"><img src="{% static "images/goods/goods003.jpg" %}"></a>
-					<h4><a href="detail.html">大兴大棚草莓</a></h4>
+					<a href="{% url 'demo:detail' %}"><img src="{% static "images/goods/goods003.jpg" %}"></a>
+					<h4><a href="{% url 'demo:detail' %}">大兴大棚草莓</a></h4>
 					<div class="operate">
 						<span class="prize">￥16.80</span>
 						<span class="unit">16.80/500g</span>
